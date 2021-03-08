@@ -4,7 +4,7 @@
 
 **Course Date:** DD.MM.YYYY  
 **Name:** Taner  
-**Surname:** Kavak 
+**Surname:** Kavak  
 **Email:** tanerkavak44@gmail.com  
 
 **Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
@@ -21,5 +21,4 @@ Some python libraries
 ---
 
 ### Certification
-![](img/certificate.png)
-
+![](img/certificate_ex.png)

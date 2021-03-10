@@ -3,6 +3,7 @@ import random
 list_cift = [i for i in range(0,2021) if i%2 == 0] #Çift Sayı Dizisi
 list_tek = [i for i in range(0,2021) if i%2 == 1]  #Tek Sayı Dizisi
 
+
 #Her Listeden Rasgele 10 Tane Sayı Alınır ve Birleştirilir.
 merge_list = random.sample(list_cift,10) + random.sample(list_tek,10)
 

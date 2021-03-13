@@ -44,7 +44,6 @@ for i in range(1):
     student_05.append(ders_data_14)
     student_05.append(ders_data_15)
 
-
 #passingGrade =(dersnot*0.3)+(projenot*0.3)+(final*0.4)
 
 student_01_Grade = int((student_01[0]*0.3)+(student_01[1]*0.3)+(student_01[2]*0.4))
@@ -53,7 +52,6 @@ student_03_Grade = int((student_03[0]*0.3)+(student_03[1]*0.3)+(student_03[2]*0.
 student_04_Grade = int((student_04[0]*0.3)+(student_04[1]*0.3)+(student_04[2]*0.4))
 student_05_Grade = int((student_05[0]*0.3)+(student_05[1]*0.3)+(student_05[2]*0.4))
 print("-"*75)
-
 
 student_01_durum = "Kaldı" if student_01_Grade<45 else "Geçti"
 student_02_durum = "Kaldı" if student_02_Grade<45 else "Geçti"
@@ -67,7 +65,6 @@ students = {"Students":["1. Öğrenci","2. Öğrenci","3. Öğrenci","4. Öğren
             "Final":[student_01[2],student_02[2],student_03[2],student_04[2],student_05[2]],
             "PassGrade":[student_01_Grade,student_02_Grade,student_03_Grade,student_04_Grade,student_05_Grade],
             "PassingStatus":[student_01_durum,student_02_durum,student_03_durum,student_04_durum,student_05_durum]}
-
 
 df1 = pd.DataFrame(students)
 df = df1.sort_values("PassGrade",ascending=False)

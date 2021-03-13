@@ -55,11 +55,11 @@ student_05_Grade = int((student_05[0]*0.3)+(student_05[1]*0.3)+(student_05[2]*0.
 print("-"*75)
 
 
-student_01_durum = "Kaldı" if student_01_Grade<60 else "Geçti"
-student_02_durum = "Kaldı" if student_02_Grade<60 else "Geçti"
-student_03_durum = "Kaldı" if student_03_Grade<60 else "Geçti"
-student_04_durum = "Kaldı" if student_04_Grade<60 else "Geçti"
-student_05_durum = "Kaldı" if student_05_Grade<60 else "Geçti"
+student_01_durum = "Kaldı" if student_01_Grade<45 else "Geçti"
+student_02_durum = "Kaldı" if student_02_Grade<45 else "Geçti"
+student_03_durum = "Kaldı" if student_03_Grade<45 else "Geçti"
+student_04_durum = "Kaldı" if student_04_Grade<45 else "Geçti"
+student_05_durum = "Kaldı" if student_05_Grade<45 else "Geçti"
 
 students = {"Students":["1. Öğrenci","2. Öğrenci","3. Öğrenci","4. Öğrenci","5. Öğrenci"],
             "Midtern":[student_01[0],student_02[0],student_03[0],student_04[0],student_05[0]],
@@ -72,92 +72,3 @@ students = {"Students":["1. Öğrenci","2. Öğrenci","3. Öğrenci","4. Öğren
 df1 = pd.DataFrame(students)
 df = df1.sort_values("PassGrade",ascending=False)
 print(df)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

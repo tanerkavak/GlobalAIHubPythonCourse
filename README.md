@@ -2,21 +2,20 @@
 
 ![](img/logo.png)
 
-**Course Date:** DD.MM.YYYY  
+**Course Date:** 12.03.2021  
 **Name:** Taner  
 **Surname:** Kavak  
 **Email:** tanerkavak44@gmail.com  
 
-**Note:** Your homeworks can be formats like ".ipynb" and ".py". **Not ".txt" files!!** Make sure that your codes works.  
+  
 
 ## Project Name
-Description of your project.
+Haydi! Bil Bakalım.
 
 ## Requirements
 ```
-Some python libraries
-Some python libraries
-Some python libraries
+import random
+import pandas as pd
 ```
 ---
 

@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 student_01 = []
@@ -51,7 +50,7 @@ student_02_Grade = int((student_02[0]*0.3)+(student_02[1]*0.3)+(student_02[2]*0.
 student_03_Grade = int((student_03[0]*0.3)+(student_03[1]*0.3)+(student_03[2]*0.4))
 student_04_Grade = int((student_04[0]*0.3)+(student_04[1]*0.3)+(student_04[2]*0.4))
 student_05_Grade = int((student_05[0]*0.3)+(student_05[1]*0.3)+(student_05[2]*0.4))
-print("-"*75)
+print("-"*64)
 
 student_01_durum = "Kaldı" if student_01_Grade<45 else "Geçti"
 student_02_durum = "Kaldı" if student_02_Grade<45 else "Geçti"

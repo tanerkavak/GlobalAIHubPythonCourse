@@ -3,9 +3,9 @@
 ![](img/logo.png)
 
 **Course Date:** 12.03.2021  
-**Name:** Taner  
-**Surname:** Kavak  
-**Email:** tanerkavak44@gmail.com  
+**Name:**        Taner  
+**Surname:**     Kavak  
+**Email:**       tanerkavak44@gmail.com  
 
   
 

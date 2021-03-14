@@ -10,7 +10,7 @@
   
 
 ## Project Name
-Haydi! Bil Bakalım.
+Bilgi Yarışması (Haydi! Bil Bakalım)
 
 ## Requirements
 ```

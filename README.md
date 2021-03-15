@@ -20,4 +20,4 @@ import pandas as pd
 ---
 
 ### Certification
-![](img/certificate_ex.png)
+![](img/certificate.png)
